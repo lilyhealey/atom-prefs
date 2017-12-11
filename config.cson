@@ -1,0 +1,93 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    enableAutoActivation: false
+  "bracket-matcher":
+    autocompleteCharacters: [
+      "()"
+      "[]"
+      "{}"
+      "``"
+      "“”"
+      "‘’"
+      "«»"
+      "‹›"
+    ]
+  core:
+    audioBeep: false
+    customFileTypes:
+      "source.js": [
+        "jsx"
+      ]
+    disabledPackages: [
+      "autocomplete-plus"
+      "snippets"
+      "autocomplete-snippets"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "gruvbox-plus-syntax"
+    ]
+  editor:
+    fontFamily: "SF Mono"
+    fontSize: 10
+    invisibles: {}
+    softTabs: false
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "f23cccc0-ca14-4e12-9d54-48eabaac9a8f"
+  "gruvbox-plus-syntax":
+    variant: "No Dimmed Colors"
+  latex:
+    cleanPatterns: [
+      "**/*.aux"
+      "**/*.aux.bak"
+      "**/*.bbl"
+      "**/*.bcf"
+      "**/*.blg"
+      "**/*.dvi"
+      "**/*.fdb_latexmk"
+      "**/*.fls"
+      "**/*.idx"
+      "**/*.idx.bak"
+      "**/*.ilg"
+      "**/*.ind"
+      "**/*.lof"
+      "**/*.log"
+      "**/*.lol"
+      "**/*.lot"
+      "**/*.nav"
+      "**/*.out"
+      "**/*.ps"
+      "**/*.snm"
+      "**/*.synctex.gz"
+      "**/*.toc"
+      "/**/_minted-{jobname}"
+      "/{output_dir}/sage-plots-for-{jobname}.tex"
+      "/missfont.log"
+      "/texput.log"
+      "/texput.aux"
+    ]
+    openResultInBackground: false
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
+  tabs: {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".bibtex.text":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+".latex.tex.text":
+  editor:
+    autoIndent: false
+".python.source":
+  editor:
+    tabLength: 2
