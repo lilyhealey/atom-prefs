@@ -21,7 +21,6 @@
       ]
     disabledPackages: [
       "autocomplete-plus"
-      "snippets"
       "autocomplete-snippets"
     ]
     openEmptyEditorOnStart: false
@@ -34,8 +33,6 @@
     fontFamily: "SF Mono"
     fontSize: 10
     invisibles: {}
-    lineHeight: 1.3
-    softTabs: false
     softWrap: true
     tabType: "soft"
   "exception-reporting":
