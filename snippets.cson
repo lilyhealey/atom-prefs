@@ -19,3 +19,31 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.text.tex.latex':
+  'emph':
+    'prefix': 'em'
+    'body': '\\\\emph{$1} $2'
+  'section':
+    'prefix': '\sec'
+    'body': '\\section{$1} $2'
+  'subsection':
+    'prefix': '\ssec'
+    'body': '\\subsection{$1} $2'
+  'subsubsection':
+    'prefix': '\sssec'
+    'body': '\\subsubsection{$1} $2'
+  'tight enumerate':
+    'prefix': 'te'
+    'body':"""
+      \\\\begin{tight_enumerate}
+      \\\\item $1
+      \\\\end{tight_enumerate}
+    """
+  'tight itemize':
+    'prefix': 'ti'
+    'body':"""
+      \\\\begin{tight_itemize}
+      \\\\item $1
+      \\\\end{tight_itemize}
+    """
