@@ -33,4 +33,3 @@
 
 'atom-text-editor[data-grammar~="latex"]':
   'cmd-t': 'latex:build'
-  'ctrl-cmd-c': 'latex:clean'
