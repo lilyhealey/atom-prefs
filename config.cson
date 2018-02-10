@@ -12,6 +12,7 @@
       "‘’"
       "«»"
       "‹›"
+      "\"\""
     ]
   core:
     audioBeep: false
@@ -37,6 +38,7 @@
     tabType: "soft"
   "exception-reporting":
     userId: "f23cccc0-ca14-4e12-9d54-48eabaac9a8f"
+  "grammar-token-limit": {}
   "gruvbox-plus-syntax":
     variant: "No Dimmed Colors"
   latex:
@@ -89,3 +91,7 @@
 ".python.source":
   editor:
     tabLength: 2
+".text.xml":
+  editor:
+    limitLineLength: false
+    softWrap: true
